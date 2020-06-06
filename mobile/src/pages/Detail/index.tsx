@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Feather as Icon, FontAwesome } from '@expo/vector-icons'
+import { Feather, FontAwesome } from '@expo/vector-icons'
 import { View, StyleSheet, TouchableOpacity, Text, Image, SafeAreaView, Linking } from 'react-native';
 import { useNavigation, useRoute } from '@react-navigation/native'
 import { RectButton } from 'react-native-gesture-handler'
@@ -69,7 +69,7 @@ const Detail: React.FC = () => {
     <SafeAreaView style={{ flex: 1 }}>
       <View style={styles.container}>
         <TouchableOpacity onPress={handleNavigateBack}>
-          <Icon name="arrow-left" size={20} color="#34cb79" />
+          <Feather name="arrow-left" size={20} color="#34cb79" />
         </TouchableOpacity>
 
         <Image style={styles.pointImage} source={{ uri: data.point.image_url }} />
@@ -89,7 +89,7 @@ const Detail: React.FC = () => {
         </RectButton>
 
         <RectButton style={styles.button} onPress={handleComposeMail}>
-          <Icon name="mail" size={20} color="#FFF" />
+          <Feather name="mail" size={20} color="#FFF" />
           <Text style={styles.buttonText}>E-mail</Text>
         </RectButton>
       </View>

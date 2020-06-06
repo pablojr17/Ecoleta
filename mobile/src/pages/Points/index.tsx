@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Constants from 'expo-constants';
-import { Feather as Icon } from '@expo/vector-icons'
+import { Feather } from '@expo/vector-icons'
 import { View, StyleSheet, TouchableOpacity, Text, ScrollView, Image, Alert } from 'react-native';
 import { useNavigation, useRoute } from '@react-navigation/native'
 import MapView, { Marker } from 'react-native-maps';
@@ -100,7 +100,7 @@ const Points: React.FC = () => {
     <>
       <View style={styles.container}>
         <TouchableOpacity onPress={handleNavigateBack}>
-          <Icon name="arrow-left" size={20} color="#34cb79" />
+          <Feather name="arrow-left" size={20} color="#34cb79" />
         </TouchableOpacity>
 
         <Text style={styles.title}>Bem vindo.</Text>

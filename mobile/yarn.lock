@@ -958,6 +958,11 @@
   dependencies:
     "@types/hammerjs" "^2.0.36"
 
+"@expo-google-fonts/inter@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@expo-google-fonts/inter/-/inter-0.1.0.tgz#399f068437824fcbf6aa3da5fcf490dba2af85a3"
+  integrity sha512-Y6GCqsUX6JwexQ2wmBkMiJBY6M2GpNQRTczzIGbBGhXWQxqGmP5awRcf0ZJV+OlLeJcKAzas/TW45ZLdpG3yzA==
+
 "@expo-google-fonts/roboto@^0.1.0":
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/@expo-google-fonts/roboto/-/roboto-0.1.0.tgz#2897dc09db4ceb9f5ba337103090e1d70236e811"
@@ -1168,6 +1173,11 @@
   version "0.1.6"
   resolved "https://registry.yarnpkg.com/@react-native-community/masked-view/-/masked-view-0.1.6.tgz#c7f2ac187c1f25aa8c30d11baa8f4398eca3bb84"
   integrity sha512-PpMoeXwPUoldCRKDuSi+zK5rT+sJTW6ri6RdGPkSKRzU77Q1d9IaR0O5IKvBj0XSdL3p+dcOa05gk35aGDffBQ==
+
+"@react-native-community/picker@^1.6.1":
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/@react-native-community/picker/-/picker-1.6.1.tgz#f893bf4982e549c954696d08a47e1d8e72762310"
+  integrity sha512-JuCOtim1tZhB3KoJhbuPj3pFweUnj4XgukktJk0MyUOB8wA3uCEHW+xsGYu8ZDYiyR0M6qXctz7Fz2qYFuTUSQ==
 
 "@react-navigation/core@^5.9.0":
   version "5.9.0"
@@ -3503,6 +3513,11 @@ locate-path@^5.0.0:
   dependencies:
     p-locate "^4.1.0"
 
+lodash.isequal@^4.5.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/lodash.isequal/-/lodash.isequal-4.5.0.tgz#415c4478f2bcc30120c22ce10ed3226f7d3e18e0"
+  integrity sha1-QVxEePK8wwEgwizhDtMib30+GOA=
+
 lodash.throttle@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/lodash.throttle/-/lodash.throttle-4.1.1.tgz#c23e91b710242ac70c37f1e1cda9274cc39bf2f4"
@@ -4737,6 +4752,13 @@ react-dom@~16.9.0:
     prop-types "^15.6.2"
     scheduler "^0.15.0"
 
+react-icons@^3.10.0:
+  version "3.10.0"
+  resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-3.10.0.tgz#6c217a2dde2e8fa8d293210023914b123f317297"
+  integrity sha512-WsQ5n1JToG9VixWilSo1bHv842Cj5aZqTGiS3Ud47myF6aK7S/IUY2+dHcBdmkQcCFRuHsJ9OMUI0kTDfjyZXQ==
+  dependencies:
+    camelcase "^5.0.0"
+
 react-is@^16.12.0, react-is@^16.13.0, react-is@^16.8.1, react-is@^16.8.4:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
@@ -4761,6 +4783,13 @@ react-native-maps@0.26.1:
   version "0.26.1"
   resolved "https://registry.yarnpkg.com/react-native-maps/-/react-native-maps-0.26.1.tgz#6ec316259b38d259c8974448d894bd7a23101da4"
   integrity sha512-p4VTB8YB5ZmOmDRCUpoHZkm05amZwhIo04AJMBbB9+JAR2PNNfpo0vceoWX0Mag4wnePkdzPomeWMplr/wimTg==
+
+react-native-picker-select@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/react-native-picker-select/-/react-native-picker-select-7.0.0.tgz#4808a1177f997e234bb8505849dfffe1a01fedac"
+  integrity sha512-SO7b7wHfeM07oVTsLhBlT/VDvMXg2aP0Xy5CA+kL7+oV2Bq6nfKTVjpB2+HLVhFik9i/tlq5ROuGdUrfPhl3rg==
+  dependencies:
+    lodash.isequal "^4.5.0"
 
 react-native-reanimated@~1.7.0:
   version "1.7.1"
