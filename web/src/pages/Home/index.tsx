@@ -14,7 +14,7 @@ const Home = () => {
         <img src={logo} alt="Ecoleta"/>
         </header>
 
-        <main>
+        <main> 
           <h1>Seu marketplace de coleta de resíduos.</h1>
           <p>Ajudamos pessoas a encontrarem pontos de coleta de forma eficiente</p>
 
@@ -28,7 +28,6 @@ const Home = () => {
         </main>
       </div>
     </div>
-  )
-}
+  )}
 
 export default Home;
